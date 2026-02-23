@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Character creation</title>
+        <style>
+            body {
+                background-image: url('cat.png'); 
+                background-repeat: no-repeat; /* Prevents image repetition */
+                background-size: cover; /* Scales the image to cover the entire element */
+                background-attachment: scroll; /* Keeps the background image fixed during scrolling */
+            }
+        </style>
+        <h1 style="color: aquamarine">Create a character here.</h1>
+        <form action="thank_you.html" method="get">
+            <h2 style="color: aquamarine">Username & Password</h2>
+            <input type="text" id="username" name="username" placeholder="Enter a username" required>
+            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+            <h2 style="color: aquamarine">Class & Race</h2>
+            <h3 style="color: aquamarine">Class</h3>
+            <input type="radio" id="wizard" name="class" value="wizard">
+            <label for="wizard" style="color: aquamarine">Wizard</label>
+            <input type="radio" id="sorcerer" name="class" value="sorcerer">
+            <label for="sorcerer" style="color: aquamarine">Sorcerer</label>
+            <input type="radio" id="warrior" name="class" value="warrior">
+            <label for="warrior" style="color: aquamarine">Warrior</label>
+            <input type="radio" id="spy" name="class" value="spy">
+            <label for="spy" style="color: aquamarine">Spy</label>
+            <h3>Race</h3>
+            <input type="radio" id="human" name="race" value="human">
+            <label for="human" style="color: aquamarine">human</label>
+            <input type="radio" id="elf" name="race" value="elf">
+            <label for="elf" style="color: aquamarine">Elf</label>
+            <input type="radio" id="dwarf" name="race" value="dwarf">
+            <label for="dwarf" style="color: aquamarine">Dwarf</label>
+            <input type="radio" id="kitten" name="race" value="kitten">
+            <label for="kitten" style="color: aquamarine">Kitten</label>
+            <h2 style="color: aquamarine">Details</h2>
+            <h3 style="color: aquamarine">Write your name</h3>
+            <input type="text" id="name" name="name" placeholder="enter a name" required>
+            <h3 style="color: aquamarine">Write your description</h3>
+            <textarea rows="10" cols="50" name="description" placeholder="Your description here"></textarea>
+            <h3 style="color: aquamarine">Submit or reset</h3>
+            <h6 style="color: aquamarine">Submit</h6>
+            <input type="image" src="evennia_logo.png" height="250" width="250">
+            <h1></h1>
+            <button type="reset">Reset</button>
+        </form>
+    </head>
+</html>

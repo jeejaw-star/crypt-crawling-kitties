@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <style>
+            body {
+                background-image: url('background_forum.jpeg'); 
+                background-repeat: no-repeat; /* Prevents image repetition */
+                background-size: cover; /* Scales the image to cover the entire element */
+                background-attachment: scroll; /* Keeps the background image fixed during scrolling */
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cat World Forum</title>
+    </head>
+    <body>
+        <h1 style="color: aqua">Enter name and text</h1>
+        <input id="username" type="text" placeholder="Your name here">
+        <h1></h1>
+        <textarea id="postContent" rows="5" cols="50" placeholder="Type your text here..."></textarea><br>
+        <button onclick="displayText()" style="border: tomato; fill:aquamarine">Post Text</button>
+
+        <h2 style="color: aquamarine">Posted Content:</h2>
+        <div id="displayArea" style="color: cyan"></div>
+        <form action="home.html">
+            <button style="border: tomato; fill:aquamarine">Go home</button>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
