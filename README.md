@@ -1,2 +1,17 @@
 # Welcome to crypt crawlin' kitties
 Crypt crawlin' kitties is a MUM(multi-user-multiverse), powered by [Evennia](evennia.com). In case you have not heard of MU*s before, they are online text games. Since most people don't know what text games are, they tell you the description of your location and you type in what to do.
+
+## Example of text game
+### Secret cave
+You are in a cave with some gold bars.
+Exits:
+North, South
+>>> get gold
+OK
+>>> north
+### River cave
+You are in a cave with a beautiful river flowing through it.
+Exits:
+South, River
+>>> River
+...
