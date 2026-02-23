@@ -1,0 +1,1336 @@
+2026-01-05 14:09:43 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-05 14:09:43 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-05 14:09:52 [!!] Traceback (most recent call last):
+2026-01-05 14:09:52 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-05 14:09:52 [!!]     ret = cmd.func()
+2026-01-05 14:09:52 [!!]           ^^^^^^^^^^
+2026-01-05 14:09:52 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 115, in func
+2026-01-05 14:09:52 [!!]     dest=search_object(self.args)[0]
+2026-01-05 14:09:52 [!!]          ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:09:52 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/query.py", line 418, in __getitem__
+2026-01-05 14:09:52 [!!]     return self._result_cache[k]
+2026-01-05 14:09:52 [!!]            ~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:09:52 [!!] IndexError: list index out of range
+2026-01-05 14:09:52 [EE] User input was: 'teleport the cat inn'.
+2026-01-05 14:10:03 [!!] Traceback (most recent call last):
+2026-01-05 14:10:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-05 14:10:03 [!!]     ret = cmd.func()
+2026-01-05 14:10:03 [!!]           ^^^^^^^^^^
+2026-01-05 14:10:03 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 115, in func
+2026-01-05 14:10:03 [!!]     dest=search_object(self.args)[0]
+2026-01-05 14:10:03 [!!]          ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:10:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/query.py", line 418, in __getitem__
+2026-01-05 14:10:03 [!!]     return self._result_cache[k]
+2026-01-05 14:10:03 [!!]            ~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:10:03 [!!] IndexError: list index out of range
+2026-01-05 14:10:03 [EE] User input was: 'teleport Meadow'.
+2026-01-05 14:10:26 [!!] Traceback (most recent call last):
+2026-01-05 14:10:26 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-05 14:10:26 [!!]     ret = cmd.func()
+2026-01-05 14:10:26 [!!]           ^^^^^^^^^^
+2026-01-05 14:10:26 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 135, in func
+2026-01-05 14:10:26 [!!]     self.caller.move_to(x)
+2026-01-05 14:10:26 [!!]     ^^^^^^^^^^^^^^^^^^^^
+2026-01-05 14:10:27 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/models.py", line 331, in __location_set
+2026-01-05 14:10:27 [!!]     is_loc_loop(location)
+2026-01-05 14:10:27 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/models.py", line 328, in is_loc_loop
+2026-01-05 14:10:27 [!!]     return is_loc_loop(loc.db_location, depth + 1)
+2026-01-05 14:10:27 [!!]                        ^^^^^^^^^^^^^^^
+2026-01-05 14:10:27 [!!] AttributeError: 'QuerySet' object has no attribute 'db_location'
+2026-01-05 14:10:27 [EE] User input was: 'freq 12.345'.
+2026-01-05 14:11:01 [..] Server disconnected from the portal.
+2026-01-05 14:11:01 [..] Main loop terminated.
+2026-01-05 14:11:01 [..] Server Shut Down.
+2026-01-05 14:11:06 [..] Loaded.
+2026-01-05 14:11:04 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-05 14:11:06 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-05 14:11:06 [..] Loaded.
+2026-01-05 14:11:06 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-05 14:11:06 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-05 14:11:06 [..] Webserver starting on 4005
+2026-01-05 14:11:06 [..] Server successfully reloaded.
+2026-01-05 14:11:06 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-05 14:11:06 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-05 14:11:06 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-05 14:11:06 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-05 14:11:06 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-05 14:11:06 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-05 14:11:06 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-05 14:11:06 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-05 14:11:14 [!!] Traceback (most recent call last):
+2026-01-05 14:11:14 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-05 14:11:14 [!!]     ret = cmd.func()
+2026-01-05 14:11:14 [!!]           ^^^^^^^^^^
+2026-01-05 14:11:14 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 129, in func
+2026-01-05 14:11:14 [!!]     x=search_object("Dimensonal Transport")[0]
+2026-01-05 14:11:14 [!!]       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:11:14 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/query.py", line 418, in __getitem__
+2026-01-05 14:11:14 [!!]     return self._result_cache[k]
+2026-01-05 14:11:14 [!!]            ~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:11:14 [!!] IndexError: list index out of range
+2026-01-05 14:11:14 [EE] User input was: 'freq 12.345'.
+2026-01-05 14:11:16 [..] Successfully sent game details to Evennia Game Index.
+2026-01-05 14:11:35 [..] Server disconnected from the portal.
+2026-01-05 14:11:35 [..] Main loop terminated.
+2026-01-05 14:11:35 [..] Server Shut Down.
+2026-01-05 14:11:38 [..] Loaded.
+2026-01-05 14:11:36 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-05 14:11:38 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-05 14:11:38 [..] Loaded.
+2026-01-05 14:11:38 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-05 14:11:38 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-05 14:11:38 [..] Webserver starting on 4005
+2026-01-05 14:11:38 [..] Server successfully reloaded.
+2026-01-05 14:11:38 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-05 14:11:38 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-05 14:11:38 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-05 14:11:38 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-05 14:11:38 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-05 14:11:38 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-05 14:11:38 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-05 14:11:38 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-05 14:11:39 [!!] Traceback (most recent call last):
+2026-01-05 14:11:39 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-05 14:11:39 [!!]     ret = cmd.func()
+2026-01-05 14:11:39 [!!]           ^^^^^^^^^^
+2026-01-05 14:11:39 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 129, in func
+2026-01-05 14:11:39 [!!]     x=search_object(722)[0]
+2026-01-05 14:11:39 [!!]       ~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:11:39 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/query.py", line 418, in __getitem__
+2026-01-05 14:11:39 [!!]     return self._result_cache[k]
+2026-01-05 14:11:39 [!!]            ~~~~~~~~~~~~~~~~~~^^^
+2026-01-05 14:11:39 [!!] IndexError: list index out of range
+2026-01-05 14:11:39 [EE] User input was: 'freq 324'.
+2026-01-05 14:11:48 [..] Successfully sent game details to Evennia Game Index.
+2026-01-05 14:14:42 [..] Server disconnected from the portal.
+2026-01-05 14:14:42 [..] Main loop terminated.
+2026-01-05 14:14:42 [..] Server Shut Down.
+2026-01-05 14:14:46 [..] Loaded.
+2026-01-05 14:14:44 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-05 14:14:46 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-05 14:14:46 [..] Loaded.
+2026-01-05 14:14:46 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-05 14:14:46 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-05 14:14:46 [..] Webserver starting on 4005
+2026-01-05 14:14:46 [..] Server successfully reloaded.
+2026-01-05 14:14:46 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-05 14:14:46 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-05 14:14:46 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-05 14:14:46 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-05 14:14:46 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-05 14:14:46 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-05 14:14:46 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-05 14:14:46 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-05 14:14:56 [..] Successfully sent game details to Evennia Game Index.
+2026-01-05 14:15:17 [..] Server disconnected from the portal.
+2026-01-05 14:15:17 [..] Main loop terminated.
+2026-01-05 14:15:17 [..] Server Shut Down.
+2026-01-05 14:15:20 [..] Loaded.
+2026-01-05 14:15:18 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-05 14:15:20 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-05 14:15:20 [..] Loaded.
+2026-01-05 14:15:20 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-05 14:15:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-05 14:15:20 [..] Webserver starting on 4005
+2026-01-05 14:15:20 [..] Server successfully reloaded.
+2026-01-05 14:15:20 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-05 14:15:20 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-05 14:15:20 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-05 14:15:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-05 14:15:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-05 14:15:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-05 14:15:21 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-05 14:15:21 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-05 14:15:21 [!!] Traceback (most recent call last):
+2026-01-05 14:15:21 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-05 14:15:21 [!!]     ret = cmd.func()
+2026-01-05 14:15:21 [!!]           ^^^^^^^^^^
+2026-01-05 14:15:21 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 136, in func
+2026-01-05 14:15:21 [!!]     self.caller.move_to(x)
+2026-01-05 14:15:21 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/objects.py", line 1251, in move_to
+2026-01-05 14:15:21 [!!]     if destination.destination and use_destination:
+2026-01-05 14:15:21 [!!]        ^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-05 14:15:21 [!!] AttributeError: 'QuerySet' object has no attribute 'destination'
+2026-01-05 14:15:21 [EE] User input was: 'freq 12.345'.
+2026-01-05 14:15:31 [..] Successfully sent game details to Evennia Game Index.
+2026-01-05 14:16:49 [..] Server disconnected from the portal.
+2026-01-05 14:16:49 [..] Main loop terminated.
+2026-01-05 14:16:49 [..] Server Shut Down.
+2026-01-05 14:16:53 [..] Loaded.
+2026-01-05 14:16:51 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-05 14:16:53 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-05 14:16:53 [..] Loaded.
+2026-01-05 14:16:53 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-05 14:16:53 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-05 14:16:53 [..] Webserver starting on 4005
+2026-01-05 14:16:53 [..] Server successfully reloaded.
+2026-01-05 14:16:53 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-05 14:16:53 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-05 14:16:53 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-05 14:16:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-05 14:16:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-05 14:16:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-05 14:16:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-05 14:16:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-05 14:17:04 [..] Successfully sent game details to Evennia Game Index.
+2026-01-05 14:17:58 [..] Server disconnected from the portal.
+2026-01-05 14:17:58 [..] Main loop terminated.
+2026-01-05 14:17:58 [..] Server Shut Down.
+2026-01-05 14:18:01 [..] Loaded.
+2026-01-05 14:17:59 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-05 14:18:01 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-05 14:18:01 [..] Loaded.
+2026-01-05 14:18:01 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-05 14:18:01 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-05 14:18:01 [..] Webserver starting on 4005
+2026-01-05 14:18:01 [..] Server successfully reloaded.
+2026-01-05 14:18:01 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-05 14:18:01 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-05 14:18:01 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-05 14:18:01 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-05 14:18:01 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-05 14:18:01 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-05 14:18:01 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-05 14:18:01 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-05 14:18:12 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:01:32 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-06 15:01:32 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-06 15:01:36 [..] Server disconnected from the portal.
+2026-01-06 15:01:36 [..] Main loop terminated.
+2026-01-06 15:01:36 [..] Server Shut Down.
+2026-01-06 15:01:39 [..] Loaded.
+2026-01-06 15:01:38 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:01:39 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:01:39 [..] Loaded.
+2026-01-06 15:01:39 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:01:39 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:01:40 [..] Webserver starting on 4005
+2026-01-06 15:01:40 [..] Server successfully reloaded.
+2026-01-06 15:01:40 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:01:40 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:01:40 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:01:40 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:01:40 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:01:40 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:01:40 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:01:40 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:01:51 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:03:48 [..] Server disconnected from the portal.
+2026-01-06 15:03:48 [..] Main loop terminated.
+2026-01-06 15:03:48 [..] Server Shut Down.
+2026-01-06 15:03:51 [..] Loaded.
+2026-01-06 15:03:50 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:03:51 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:03:51 [..] Loaded.
+2026-01-06 15:03:51 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:03:51 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:03:51 [..] Webserver starting on 4005
+2026-01-06 15:03:51 [..] Server successfully reloaded.
+2026-01-06 15:03:51 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:03:51 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:03:51 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:03:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:03:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:03:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:03:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:03:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:04:02 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:13:51 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+2026-01-06 15:24:23 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-06 15:24:23 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-06 15:28:30 [..] Server disconnected from the portal.
+2026-01-06 15:28:30 [..] Main loop terminated.
+2026-01-06 15:28:30 [..] Server Shut Down.
+2026-01-06 15:28:33 [..] Loaded.
+2026-01-06 15:28:32 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:28:33 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:28:33 [..] Loaded.
+2026-01-06 15:28:33 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:28:33 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:28:34 [..] Webserver starting on 4005
+2026-01-06 15:28:34 [..] Server successfully reloaded.
+2026-01-06 15:28:34 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:28:34 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:28:34 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:28:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:28:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:28:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:28:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:28:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:28:34 [!!] Traceback (most recent call last):
+2026-01-06 15:28:34 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-01-06 15:28:34 [!!]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-01-06 15:28:34 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 15:28:34 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-01-06 15:28:34 [!!]     self.at_cmdset_creation()
+2026-01-06 15:28:34 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/default_cmdsets.py", line 39, in at_cmdset_creation
+2026-01-06 15:28:34 [!!]     self.add(npcs.MyCmdSet)
+2026-01-06 15:28:34 [!!]              ^^^^^^^^^^^^^
+2026-01-06 15:28:34 [!!] AttributeError: module 'world.npcs' has no attribute 'MyCmdSet'
+2026-01-06 15:28:34 [EE] Traceback (most recent call last):
+2026-01-06 15:28:34 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-01-06 15:28:34 [EE]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-01-06 15:28:34 [EE]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 15:28:34 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-01-06 15:28:34 [EE]     self.at_cmdset_creation()
+2026-01-06 15:28:34 [EE]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/default_cmdsets.py", line 39, in at_cmdset_creation
+2026-01-06 15:28:34 [EE]     self.add(npcs.MyCmdSet)
+2026-01-06 15:28:34 [EE]              ^^^^^^^^^^^^^
+2026-01-06 15:28:34 [EE] AttributeError: module 'world.npcs' has no attribute 'MyCmdSet'
+None2026-01-06 15:28:34 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+2026-01-06 15:28:34 [EE] (Traceback was logged 26-01-06 15:28:34)
+None2026-01-06 15:28:34 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+2026-01-06 15:28:34 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+2026-01-06 15:28:44 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:28:53 [..] Server disconnected from the portal.
+2026-01-06 15:28:53 [..] Main loop terminated.
+2026-01-06 15:28:53 [..] Server Shut Down.
+2026-01-06 15:28:55 [..] Loaded.
+2026-01-06 15:28:53 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:28:54 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:28:55 [..] Loaded.
+2026-01-06 15:28:55 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:28:55 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:28:55 [..] Webserver starting on 4005
+2026-01-06 15:28:55 [..] Server successfully reloaded.
+2026-01-06 15:28:55 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:28:55 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:28:55 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:28:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:28:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:28:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:28:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:28:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:29:05 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:33:49 [..] Server disconnected from the portal.
+2026-01-06 15:33:49 [..] Main loop terminated.
+2026-01-06 15:33:49 [..] Server Shut Down.
+2026-01-06 15:33:53 [..] Loaded.
+2026-01-06 15:33:51 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:33:53 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:33:53 [..] Loaded.
+2026-01-06 15:33:53 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:33:53 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:33:53 [..] Webserver starting on 4005
+2026-01-06 15:33:53 [..] Server successfully reloaded.
+2026-01-06 15:33:53 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:33:53 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:33:53 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:33:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:33:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:33:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:33:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:33:53 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:33:54 [!!] Traceback (most recent call last):
+2026-01-06 15:33:54 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 15:33:54 [!!]     ret = cmd.func()
+2026-01-06 15:33:54 [!!]           ^^^^^^^^^^
+2026-01-06 15:33:54 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 22, in func
+2026-01-06 15:33:54 [!!]     x.speak_to(self.caller)
+2026-01-06 15:33:54 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 12, in speak_to
+2026-01-06 15:33:54 [!!]     talker.msg(random.choice(self.speech))
+2026-01-06 15:33:54 [!!]                              ^^^^^^^^^^^
+2026-01-06 15:33:54 [!!] AttributeError: 'Blacksmith' object has no attribute 'speech'
+2026-01-06 15:33:54 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 15:34:03 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:34:49 [..] Server disconnected from the portal.
+2026-01-06 15:34:49 [..] Main loop terminated.
+2026-01-06 15:34:49 [..] Server Shut Down.
+2026-01-06 15:34:52 [..] Loaded.
+2026-01-06 15:34:50 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:34:52 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:34:52 [..] Loaded.
+2026-01-06 15:34:52 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:34:52 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:34:52 [..] Webserver starting on 4005
+2026-01-06 15:34:52 [..] Server successfully reloaded.
+2026-01-06 15:34:52 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:34:52 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:34:52 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:34:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:34:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:34:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:34:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:34:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:34:55 [!!] Traceback (most recent call last):
+2026-01-06 15:34:55 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 15:34:55 [!!]     ret = cmd.func()
+2026-01-06 15:34:55 [!!]           ^^^^^^^^^^
+2026-01-06 15:34:55 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 22, in func
+2026-01-06 15:34:55 [!!]     x.speak_to(self.caller)
+2026-01-06 15:34:55 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 12, in speak_to
+2026-01-06 15:34:55 [!!]     talker.msg(random.choice(self.words))
+2026-01-06 15:34:55 [!!]                              ^^^^^^^^^^
+2026-01-06 15:34:55 [!!] AttributeError: 'Blacksmith' object has no attribute 'words'
+2026-01-06 15:34:55 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 15:35:02 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 15:37:55 [!!] Traceback (most recent call last):
+2026-01-06 15:37:55 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 15:37:55 [!!]     ret = cmd.func()
+2026-01-06 15:37:55 [!!]           ^^^^^^^^^^
+2026-01-06 15:37:55 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 22, in func
+2026-01-06 15:37:55 [!!]     x.speak_to(self.caller)
+2026-01-06 15:37:55 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 12, in speak_to
+2026-01-06 15:37:55 [!!]     talker.msg(random.choice(self.words))
+2026-01-06 15:37:55 [!!]                              ^^^^^^^^^^
+2026-01-06 15:37:55 [!!] AttributeError: 'Blacksmith' object has no attribute 'words'
+2026-01-06 15:37:55 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 15:38:00 [..] Server disconnected from the portal.
+2026-01-06 15:38:00 [..] Main loop terminated.
+2026-01-06 15:38:00 [..] Server Shut Down.
+2026-01-06 15:38:03 [..] Loaded.
+2026-01-06 15:38:01 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 15:38:03 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 15:38:03 [..] Loaded.
+2026-01-06 15:38:03 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 15:38:03 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 15:38:03 [..] Webserver starting on 4005
+2026-01-06 15:38:03 [..] Server successfully reloaded.
+2026-01-06 15:38:03 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 15:38:03 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 15:38:03 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 15:38:03 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 15:38:03 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 15:38:03 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 15:38:03 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 15:38:03 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 15:38:14 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:06:09 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-06 18:06:10 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-06 18:06:27 [..] Server disconnected from the portal.
+2026-01-06 18:06:27 [..] Main loop terminated.
+2026-01-06 18:06:27 [..] Server Shut Down.
+2026-01-06 18:06:30 [..] Loaded.
+2026-01-06 18:06:28 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:06:30 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:06:30 [..] Loaded.
+2026-01-06 18:06:30 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:06:30 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:06:30 [..] Webserver starting on 4005
+2026-01-06 18:06:30 [..] Server successfully reloaded.
+2026-01-06 18:06:30 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:06:30 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:06:30 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:06:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:06:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:06:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:06:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:06:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:06:40 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:06:41 [!!] Traceback (most recent call last):
+2026-01-06 18:06:41 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:06:41 [!!]     ret = cmd.func()
+2026-01-06 18:06:41 [!!]           ^^^^^^^^^^
+2026-01-06 18:06:41 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 60, in func
+2026-01-06 18:06:41 [!!]     x=self.player.location.search(self.args.strip())
+2026-01-06 18:06:41 [!!]       ^^^^^^^^^^^
+2026-01-06 18:06:41 [!!] AttributeError: 'CmdHaggle' object has no attribute 'player'
+2026-01-06 18:06:41 [EE] User input was: 'haggle with blacksmith for sword'.
+2026-01-06 18:07:11 [..] Server disconnected from the portal.
+2026-01-06 18:07:11 [..] Main loop terminated.
+2026-01-06 18:07:11 [..] Server Shut Down.
+2026-01-06 18:07:13 [..] Loaded.
+2026-01-06 18:07:12 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:07:13 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:07:13 [..] Loaded.
+2026-01-06 18:07:13 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:07:13 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:07:13 [..] Webserver starting on 4005
+2026-01-06 18:07:13 [..] Server successfully reloaded.
+2026-01-06 18:07:13 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:07:13 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:07:13 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:07:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:07:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:07:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:07:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:07:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:07:24 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:08:44 [..] Server disconnected from the portal.
+2026-01-06 18:08:44 [..] Main loop terminated.
+2026-01-06 18:08:44 [..] Server Shut Down.
+2026-01-06 18:08:47 [..] Loaded.
+2026-01-06 18:08:46 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:08:47 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:08:47 [..] Loaded.
+2026-01-06 18:08:47 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:08:47 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:08:47 [..] Webserver starting on 4005
+2026-01-06 18:08:47 [..] Server successfully reloaded.
+2026-01-06 18:08:48 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:08:48 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:08:48 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:08:48 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:08:48 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:08:48 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:08:48 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:08:48 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:08:58 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:09:29 [..] Server disconnected from the portal.
+2026-01-06 18:09:29 [..] Main loop terminated.
+2026-01-06 18:09:30 [..] Server Shut Down.
+2026-01-06 18:09:32 [..] Loaded.
+2026-01-06 18:09:30 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:09:32 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:09:32 [..] Loaded.
+2026-01-06 18:09:32 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:09:32 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:09:32 [..] Webserver starting on 4005
+2026-01-06 18:09:32 [..] Server successfully reloaded.
+2026-01-06 18:09:32 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:09:32 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:09:32 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:09:32 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:09:32 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:09:32 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:09:32 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:09:32 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:09:42 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:10:06 [..] Server disconnected from the portal.
+2026-01-06 18:10:06 [..] Main loop terminated.
+2026-01-06 18:10:06 [..] Server Shut Down.
+2026-01-06 18:10:08 [..] Loaded.
+2026-01-06 18:10:07 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:10:08 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:10:08 [..] Loaded.
+2026-01-06 18:10:08 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:10:08 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:10:08 [..] Webserver starting on 4005
+2026-01-06 18:10:08 [..] Server successfully reloaded.
+2026-01-06 18:10:08 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:10:08 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:10:08 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:10:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:10:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:10:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:10:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:10:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:10:18 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:10:41 [..] Server disconnected from the portal.
+2026-01-06 18:10:41 [..] Main loop terminated.
+2026-01-06 18:10:41 [..] Server Shut Down.
+2026-01-06 18:10:43 [..] Loaded.
+2026-01-06 18:10:42 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:10:43 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:10:43 [..] Loaded.
+2026-01-06 18:10:43 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:10:43 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:10:43 [..] Webserver starting on 4005
+2026-01-06 18:10:43 [..] Server successfully reloaded.
+2026-01-06 18:10:43 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:10:43 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:10:43 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:10:43 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:10:43 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:10:43 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:10:43 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:10:43 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:10:54 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:11:15 [..] Server disconnected from the portal.
+2026-01-06 18:11:15 [..] Main loop terminated.
+2026-01-06 18:11:15 [..] Server Shut Down.
+2026-01-06 18:11:17 [..] Loaded.
+2026-01-06 18:11:15 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:11:17 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:11:17 [..] Loaded.
+2026-01-06 18:11:17 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:11:17 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:11:17 [..] Webserver starting on 4005
+2026-01-06 18:11:17 [..] Server successfully reloaded.
+2026-01-06 18:11:17 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:11:17 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:11:17 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:11:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:11:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:11:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:11:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:11:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:11:25 [!!] Traceback (most recent call last):
+2026-01-06 18:11:25 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:11:25 [!!]     ret = cmd.func()
+2026-01-06 18:11:25 [!!]           ^^^^^^^^^^
+2026-01-06 18:11:25 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 65, in func
+2026-01-06 18:11:25 [!!]     if x.seller:
+2026-01-06 18:11:25 [!!]        ^^^^^^^^
+2026-01-06 18:11:25 [!!] AttributeError: 'Blacksmith' object has no attribute 'seller'
+2026-01-06 18:11:25 [EE] User input was: 'haggle with blacksmith for sword'.
+2026-01-06 18:11:27 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:12:12 [..] Server disconnected from the portal.
+2026-01-06 18:12:12 [..] Main loop terminated.
+2026-01-06 18:12:12 [..] Server Shut Down.
+2026-01-06 18:12:15 [..] Loaded.
+2026-01-06 18:12:13 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:12:15 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:12:15 [..] Loaded.
+2026-01-06 18:12:15 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:12:15 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:12:15 [..] Webserver starting on 4005
+2026-01-06 18:12:15 [..] Server successfully reloaded.
+2026-01-06 18:12:15 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:12:15 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:12:15 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:12:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:12:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:12:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:12:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:12:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:12:22 [!!] Traceback (most recent call last):
+2026-01-06 18:12:22 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:12:22 [!!]     ret = cmd.func()
+2026-01-06 18:12:22 [!!]           ^^^^^^^^^^
+2026-01-06 18:12:22 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 66, in func
+2026-01-06 18:12:22 [!!]     x.haggle(self.b,self.caller)
+2026-01-06 18:12:22 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 2655, in decorator
+2026-01-06 18:12:22 [!!]     _iterate(ret, caller)
+2026-01-06 18:12:22 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 2626, in _iterate
+2026-01-06 18:12:22 [!!]     value = next(generator)
+2026-01-06 18:12:22 [!!]             ^^^^^^^^^^^^^^^
+2026-01-06 18:12:22 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 36, in haggle
+2026-01-06 18:12:22 [!!]     x=self.objects[object][0]
+2026-01-06 18:12:22 [!!]       ^^^^^^^^^^^^
+2026-01-06 18:12:22 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/manager.py", line 186, in __get__
+2026-01-06 18:12:22 [!!]     raise AttributeError(
+2026-01-06 18:12:22 [!!] AttributeError: Manager isn't accessible via Blacksmith instances
+2026-01-06 18:12:22 [EE] User input was: 'haggle with blacksmith for sword'.
+2026-01-06 18:12:26 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:15:35 [..] Server disconnected from the portal.
+2026-01-06 18:15:35 [..] Main loop terminated.
+2026-01-06 18:15:35 [..] Server Shut Down.
+2026-01-06 18:15:39 [..] Loaded.
+2026-01-06 18:15:37 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:15:39 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:15:39 [..] Loaded.
+2026-01-06 18:15:39 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:15:39 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:15:39 [..] Webserver starting on 4005
+2026-01-06 18:15:39 [..] Server successfully reloaded.
+2026-01-06 18:15:39 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:15:39 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:15:39 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:15:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:15:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:15:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:15:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:15:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:15:40 [!!] Traceback (most recent call last):
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-01-06 18:15:40 [!!]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-01-06 18:15:40 [!!]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-01-06 18:15:40 [!!]     self.at_cmdset_creation()
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/default_cmdsets.py", line 38, in at_cmdset_creation
+2026-01-06 18:15:40 [!!]     self.add(mycommands.MyCmdSet)
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 526, in add
+2026-01-06 18:15:40 [!!]     cmdset = self._instantiate(cmdset)
+2026-01-06 18:15:40 [!!]              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 334, in _instantiate
+2026-01-06 18:15:40 [!!]     return cmd()
+2026-01-06 18:15:40 [!!]            ^^^^^
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-01-06 18:15:40 [!!]     self.at_cmdset_creation()
+2026-01-06 18:15:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 306, in at_cmdset_creation
+2026-01-06 18:15:40 [!!]     self.add(npcs.CmdHaggle)
+2026-01-06 18:15:40 [!!]              ^^^^^^^^^^^^^^
+2026-01-06 18:15:40 [!!] AttributeError: module 'world.npcs' has no attribute 'CmdHaggle'
+2026-01-06 18:15:40 [EE] Traceback (most recent call last):
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdsethandler.py", line 209, in import_cmdset
+2026-01-06 18:15:40 [EE]     cmdsetclass = cmdsetclass(cmdsetobj)
+2026-01-06 18:15:40 [EE]                   ^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-01-06 18:15:40 [EE]     self.at_cmdset_creation()
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/default_cmdsets.py", line 38, in at_cmdset_creation
+2026-01-06 18:15:40 [EE]     self.add(mycommands.MyCmdSet)
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 526, in add
+2026-01-06 18:15:40 [EE]     cmdset = self._instantiate(cmdset)
+2026-01-06 18:15:40 [EE]              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 334, in _instantiate
+2026-01-06 18:15:40 [EE]     return cmd()
+2026-01-06 18:15:40 [EE]            ^^^^^
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdset.py", line 225, in __init__
+2026-01-06 18:15:40 [EE]     self.at_cmdset_creation()
+2026-01-06 18:15:40 [EE]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 306, in at_cmdset_creation
+2026-01-06 18:15:40 [EE]     self.add(npcs.CmdHaggle)
+2026-01-06 18:15:40 [EE]              ^^^^^^^^^^^^^^
+2026-01-06 18:15:40 [EE] AttributeError: module 'world.npcs' has no attribute 'CmdHaggle'
+None2026-01-06 18:15:40 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.CharacterCmdSet'.
+2026-01-06 18:15:40 [EE] (Traceback was logged 26-01-06 18:15:40)
+None2026-01-06 18:15:40 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.CharacterCmdSet'.
+2026-01-06 18:15:40 [EE] Replacing with fallback 'evennia.commands.default.cmdset_character.CharacterCmdSet'.
+2026-01-06 18:15:50 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:16:12 [..] Server disconnected from the portal.
+2026-01-06 18:16:12 [..] Main loop terminated.
+2026-01-06 18:16:12 [..] Server Shut Down.
+2026-01-06 18:16:15 [..] Loaded.
+2026-01-06 18:16:14 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:16:15 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:16:15 [..] Loaded.
+2026-01-06 18:16:15 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:16:15 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:16:15 [..] Webserver starting on 4005
+2026-01-06 18:16:15 [..] Server successfully reloaded.
+2026-01-06 18:16:15 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:16:15 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:16:15 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:16:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:16:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:16:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:16:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:16:15 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:16:26 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:16:35 [!!] Traceback (most recent call last):
+2026-01-06 18:16:35 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:16:35 [!!]     ret = cmd.func()
+2026-01-06 18:16:35 [!!]           ^^^^^^^^^^
+2026-01-06 18:16:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 65, in func
+2026-01-06 18:16:35 [!!]     if self.a in x.db.inventory:
+2026-01-06 18:16:35 [!!]        ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:16:35 [!!] TypeError: argument of type 'NoneType' is not iterable
+2026-01-06 18:16:35 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-06 18:16:57 [..] Server disconnected from the portal.
+2026-01-06 18:16:57 [..] Main loop terminated.
+2026-01-06 18:16:57 [..] Server Shut Down.
+2026-01-06 18:17:00 [..] Loaded.
+2026-01-06 18:16:58 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:17:00 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:17:00 [..] Loaded.
+2026-01-06 18:17:00 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:17:00 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:17:00 [..] Webserver starting on 4005
+2026-01-06 18:17:00 [..] Server successfully reloaded.
+2026-01-06 18:17:00 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:17:00 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:17:00 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:17:00 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:17:00 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:17:00 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:17:00 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:17:00 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:17:10 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:17:11 [!!] Traceback (most recent call last):
+2026-01-06 18:17:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:17:11 [!!]     ret = cmd.func()
+2026-01-06 18:17:11 [!!]           ^^^^^^^^^^
+2026-01-06 18:17:11 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 65, in func
+2026-01-06 18:17:11 [!!]     if self.a in x.inventory:
+2026-01-06 18:17:11 [!!]                  ^^^^^^^^^^^
+2026-01-06 18:17:11 [!!] AttributeError: 'Blacksmith' object has no attribute 'inventory'
+2026-01-06 18:17:11 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-06 18:17:57 [!!] Traceback (most recent call last):
+2026-01-06 18:17:57 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:17:57 [!!]     ret = cmd.func()
+2026-01-06 18:17:57 [!!]           ^^^^^^^^^^
+2026-01-06 18:17:57 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 66, in func
+2026-01-06 18:17:57 [!!]     create_object(self.a)
+2026-01-06 18:17:57 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/create.py", line 117, in create_object
+2026-01-06 18:17:57 [!!]     return ObjectDB.objects.create_object(*args, **kwargs)
+2026-01-06 18:17:57 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:17:57 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/manager.py", line 660, in create_object
+2026-01-06 18:17:57 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2026-01-06 18:17:57 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:17:57 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 1634, in class_from_module
+2026-01-06 18:17:57 [!!]     raise ImportError("the path '%s' is not on the form modulepath.Classname." % path)
+2026-01-06 18:17:57 [!!] ImportError: the path 'sword' is not on the form modulepath.Classname.
+2026-01-06 18:17:57 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-06 18:18:17 [..] Server disconnected from the portal.
+2026-01-06 18:18:17 [..] Main loop terminated.
+2026-01-06 18:18:17 [..] Server Shut Down.
+2026-01-06 18:18:20 [..] Loaded.
+2026-01-06 18:18:18 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:18:19 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:18:20 [..] Loaded.
+2026-01-06 18:18:20 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:18:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:18:20 [..] Webserver starting on 4005
+2026-01-06 18:18:20 [..] Server successfully reloaded.
+2026-01-06 18:18:20 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:18:20 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:18:20 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:18:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:18:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:18:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:18:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:18:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:18:28 [!!] Traceback (most recent call last):
+2026-01-06 18:18:28 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:18:28 [!!]     ret = cmd.func()
+2026-01-06 18:18:28 [!!]           ^^^^^^^^^^
+2026-01-06 18:18:28 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 65, in func
+2026-01-06 18:18:28 [!!]     if self.a in x.inventory:
+2026-01-06 18:18:28 [!!]                  ^^^^^^^^^^^
+2026-01-06 18:18:28 [!!] AttributeError: 'Blacksmith' object has no attribute 'inventory'
+2026-01-06 18:18:28 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-06 18:18:30 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:19:47 [..] Server disconnected from the portal.
+2026-01-06 18:19:47 [..] Main loop terminated.
+2026-01-06 18:19:47 [..] Server Shut Down.
+2026-01-06 18:19:50 [..] Loaded.
+2026-01-06 18:19:49 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:19:50 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:19:50 [..] Loaded.
+2026-01-06 18:19:50 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:19:50 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:19:50 [..] Webserver starting on 4005
+2026-01-06 18:19:50 [..] Server successfully reloaded.
+2026-01-06 18:19:51 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:19:51 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:19:51 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:19:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:19:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:19:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:19:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:19:51 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:19:56 [!!] Traceback (most recent call last):
+2026-01-06 18:19:56 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:19:56 [!!]     ret = cmd.func()
+2026-01-06 18:19:56 [!!]           ^^^^^^^^^^
+2026-01-06 18:19:56 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 65, in func
+2026-01-06 18:19:56 [!!]     if self.a in x.inventory:
+2026-01-06 18:19:56 [!!]                  ^^^^^^^^^^^
+2026-01-06 18:19:56 [!!] AttributeError: 'Blacksmith' object has no attribute 'inventory'
+2026-01-06 18:19:56 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-06 18:20:01 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:26:31 [..] Server disconnected from the portal.
+2026-01-06 18:26:31 [..] Main loop terminated.
+2026-01-06 18:26:31 [..] Server Shut Down.
+2026-01-06 18:26:34 [..] Loaded.
+2026-01-06 18:26:33 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:26:34 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:26:34 [..] Loaded.
+2026-01-06 18:26:34 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:26:34 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:26:34 [..] Webserver starting on 4005
+2026-01-06 18:26:34 [..] Server successfully reloaded.
+2026-01-06 18:26:34 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:26:34 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:26:34 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:26:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:26:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:26:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:26:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:26:34 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:26:45 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:26:50 [!!] Traceback (most recent call last):
+2026-01-06 18:26:50 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:26:50 [!!]     ret = cmd.func()
+2026-01-06 18:26:50 [!!]           ^^^^^^^^^^
+2026-01-06 18:26:50 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:26:50 [!!]     x.speak_to(self.caller)
+2026-01-06 18:26:50 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 38, in speak_to
+2026-01-06 18:26:50 [!!]     make_quest("get iron","iron","get",self,talker)
+2026-01-06 18:26:50 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 79, in make_quest
+2026-01-06 18:26:50 [!!]     import quests
+2026-01-06 18:26:50 [!!] ModuleNotFoundError: No module named 'quests'
+2026-01-06 18:26:50 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:27:17 [..] Server disconnected from the portal.
+2026-01-06 18:27:17 [..] Main loop terminated.
+2026-01-06 18:27:17 [..] Server Shut Down.
+2026-01-06 18:27:20 [..] Loaded.
+2026-01-06 18:27:18 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:27:20 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:27:20 [..] Loaded.
+2026-01-06 18:27:20 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:27:20 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:27:20 [..] Webserver starting on 4005
+2026-01-06 18:27:20 [..] Server successfully reloaded.
+2026-01-06 18:27:20 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:27:20 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:27:20 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:27:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:27:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:27:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:27:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:27:20 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:27:26 [!!] Traceback (most recent call last):
+2026-01-06 18:27:26 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:27:26 [!!]     ret = cmd.func()
+2026-01-06 18:27:26 [!!]           ^^^^^^^^^^
+2026-01-06 18:27:26 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:27:26 [!!]     x.speak_to(self.caller)
+2026-01-06 18:27:26 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 35, in speak_to
+2026-01-06 18:27:26 [!!]     text=random.choice(self.words)
+2026-01-06 18:27:26 [!!]                        ^^^^^^^^^^
+2026-01-06 18:27:26 [!!] AttributeError: 'Blacksmith' object has no attribute 'words'
+2026-01-06 18:27:26 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:27:31 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:28:11 [!!] Traceback (most recent call last):
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:28:11 [!!]     ret = cmd.func()
+2026-01-06 18:28:11 [!!]           ^^^^^^^^^^
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:28:11 [!!]     x.speak_to(self.caller)
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 38, in speak_to
+2026-01-06 18:28:11 [!!]     make_quest("get iron","iron","get",self,talker)
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 84, in make_quest
+2026-01-06 18:28:11 [!!]     x.key=name
+2026-01-06 18:28:11 [!!]     ^^^^^
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/typeclasses/models.py", line 431, in key
+2026-01-06 18:28:11 [!!]     self.save(update_fields=["db_key"])
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/idmapper/models.py", line 452, in save
+2026-01-06 18:28:11 [!!]     super().save(*args, **kwargs)
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2026-01-06 18:28:11 [!!]     self.save_base(
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+2026-01-06 18:28:11 [!!]     updated = self._save_table(
+2026-01-06 18:28:11 [!!]               ^^^^^^^^^^^^^^^^^
+2026-01-06 18:28:11 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 1114, in _save_table
+2026-01-06 18:28:11 [!!]     raise ValueError("Cannot force an update in save() with no primary key.")
+2026-01-06 18:28:11 [!!] ValueError: Cannot force an update in save() with no primary key.
+2026-01-06 18:28:11 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:29:11 [..] Server disconnected from the portal.
+2026-01-06 18:29:11 [..] Main loop terminated.
+2026-01-06 18:29:11 [..] Server Shut Down.
+2026-01-06 18:29:14 [..] Loaded.
+2026-01-06 18:29:13 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:29:14 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:29:14 [..] Loaded.
+2026-01-06 18:29:14 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:29:14 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:29:14 [..] Webserver starting on 4005
+2026-01-06 18:29:14 [..] Server successfully reloaded.
+2026-01-06 18:29:14 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:29:14 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:29:14 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:29:14 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:29:14 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:29:14 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:29:14 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:29:14 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:29:19 [!!] Traceback (most recent call last):
+2026-01-06 18:29:19 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:29:19 [!!]     ret = cmd.func()
+2026-01-06 18:29:19 [!!]           ^^^^^^^^^^
+2026-01-06 18:29:19 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:29:19 [!!]     x.speak_to(self.caller)
+2026-01-06 18:29:19 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 35, in speak_to
+2026-01-06 18:29:19 [!!]     text=random.choice(self.words)
+2026-01-06 18:29:19 [!!]                        ^^^^^^^^^^
+2026-01-06 18:29:19 [!!] AttributeError: 'Blacksmith' object has no attribute 'words'
+2026-01-06 18:29:19 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:29:24 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:29:35 [!!] Traceback (most recent call last):
+2026-01-06 18:29:35 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:29:35 [!!]     ret = cmd.func()
+2026-01-06 18:29:35 [!!]           ^^^^^^^^^^
+2026-01-06 18:29:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:29:35 [!!]     x.speak_to(self.caller)
+2026-01-06 18:29:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 38, in speak_to
+2026-01-06 18:29:35 [!!]     make_quest("get iron","iron","get",self,talker)
+2026-01-06 18:29:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 86, in make_quest
+2026-01-06 18:29:35 [!!]     create_object(key=name, typeclass=x)
+2026-01-06 18:29:35 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/create.py", line 117, in create_object
+2026-01-06 18:29:35 [!!]     return ObjectDB.objects.create_object(*args, **kwargs)
+2026-01-06 18:29:35 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:29:35 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/manager.py", line 689, in create_object
+2026-01-06 18:29:35 [!!]     new_object = typeclass(
+2026-01-06 18:29:35 [!!]                  ^^^^^^^^^^
+2026-01-06 18:29:35 [!!] TypeError: 'fetchQuest' object is not callable
+2026-01-06 18:29:35 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:30:27 [..] Server disconnected from the portal.
+2026-01-06 18:30:27 [..] Main loop terminated.
+2026-01-06 18:30:27 [..] Server Shut Down.
+2026-01-06 18:30:30 [..] Loaded.
+2026-01-06 18:30:28 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:30:30 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:30:30 [..] Loaded.
+2026-01-06 18:30:30 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:30:30 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:30:30 [..] Webserver starting on 4005
+2026-01-06 18:30:30 [..] Server successfully reloaded.
+2026-01-06 18:30:30 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:30:30 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:30:30 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:30:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:30:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:30:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:30:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:30:30 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:30:32 [!!] Traceback (most recent call last):
+2026-01-06 18:30:32 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:30:32 [!!]     ret = cmd.func()
+2026-01-06 18:30:32 [!!]           ^^^^^^^^^^
+2026-01-06 18:30:32 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:30:32 [!!]     x.speak_to(self.caller)
+2026-01-06 18:30:32 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 35, in speak_to
+2026-01-06 18:30:32 [!!]     text=random.choice(self.words)
+2026-01-06 18:30:32 [!!]                        ^^^^^^^^^^
+2026-01-06 18:30:32 [!!] AttributeError: 'Blacksmith' object has no attribute 'words'
+2026-01-06 18:30:32 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:30:40 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:31:14 [..] Server disconnected from the portal.
+2026-01-06 18:31:14 [..] Main loop terminated.
+2026-01-06 18:31:14 [..] Server Shut Down.
+2026-01-06 18:31:16 [..] Loaded.
+2026-01-06 18:31:14 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:31:16 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:31:16 [..] Loaded.
+2026-01-06 18:31:16 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:31:16 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:31:16 [..] Webserver starting on 4005
+2026-01-06 18:31:16 [..] Server successfully reloaded.
+2026-01-06 18:31:16 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:31:16 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:31:16 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:31:16 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:31:16 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:31:16 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:31:16 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:31:16 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:31:17 [!!] Traceback (most recent call last):
+2026-01-06 18:31:17 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:31:17 [!!]     ret = cmd.func()
+2026-01-06 18:31:17 [!!]           ^^^^^^^^^^
+2026-01-06 18:31:17 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:31:17 [!!]     x.speak_to(self.caller)
+2026-01-06 18:31:17 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 35, in speak_to
+2026-01-06 18:31:17 [!!]     text=random.choice(self.words)
+2026-01-06 18:31:17 [!!]                        ^^^^^^^^^^
+2026-01-06 18:31:17 [!!] AttributeError: 'Blacksmith' object has no attribute 'words'
+2026-01-06 18:31:17 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:31:26 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:33:05 [..] Server disconnected from the portal.
+2026-01-06 18:33:05 [..] Main loop terminated.
+2026-01-06 18:33:05 [..] Server Shut Down.
+2026-01-06 18:33:08 [..] Loaded.
+2026-01-06 18:33:07 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:33:08 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:33:08 [..] Loaded.
+2026-01-06 18:33:08 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:33:08 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:33:09 [..] Webserver starting on 4005
+2026-01-06 18:33:09 [..] Server successfully reloaded.
+2026-01-06 18:33:09 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:33:09 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:33:09 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:33:09 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:33:09 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:33:09 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:33:09 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:33:09 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:33:13 [!!] Traceback (most recent call last):
+2026-01-06 18:33:13 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:33:13 [!!]     ret = cmd.func()
+2026-01-06 18:33:13 [!!]           ^^^^^^^^^^
+2026-01-06 18:33:13 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:33:13 [!!]     x.speak_to(self.caller)
+2026-01-06 18:33:13 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 35, in speak_to
+2026-01-06 18:33:13 [!!]     text=random.choice(self.db.words)
+2026-01-06 18:33:13 [!!]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:33:13 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/random.py", line 372, in choice
+2026-01-06 18:33:13 [!!]     if not len(seq):
+2026-01-06 18:33:13 [!!]            ^^^^^^^^
+2026-01-06 18:33:13 [!!] TypeError: object of type 'NoneType' has no len()
+2026-01-06 18:33:13 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:33:19 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:33:35 [!!] Traceback (most recent call last):
+2026-01-06 18:33:35 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:33:35 [!!]     ret = cmd.func()
+2026-01-06 18:33:35 [!!]           ^^^^^^^^^^
+2026-01-06 18:33:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:33:35 [!!]     x.speak_to(self.caller)
+2026-01-06 18:33:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 38, in speak_to
+2026-01-06 18:33:35 [!!]     make_quest("get iron","iron","get",self,talker)
+2026-01-06 18:33:35 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 86, in make_quest
+2026-01-06 18:33:35 [!!]     taker.db.quests.append(x)
+2026-01-06 18:33:35 [!!]     ^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:33:35 [!!] AttributeError: 'NoneType' object has no attribute 'append'
+2026-01-06 18:33:35 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:36:12 [..] Server disconnected from the portal.
+2026-01-06 18:36:12 [..] Main loop terminated.
+2026-01-06 18:36:12 [..] Server Shut Down.
+2026-01-06 18:36:17 [..] Loaded.
+2026-01-06 18:36:14 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:36:17 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:36:17 [..] Loaded.
+2026-01-06 18:36:17 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:36:17 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:36:17 [..] Webserver starting on 4005
+2026-01-06 18:36:17 [..] Server successfully reloaded.
+2026-01-06 18:36:17 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:36:17 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:36:17 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:36:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:36:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:36:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:36:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:36:17 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:36:17 [!!] Traceback (most recent call last):
+2026-01-06 18:36:17 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:36:17 [!!]     ret = cmd.func()
+2026-01-06 18:36:17 [!!]           ^^^^^^^^^^
+2026-01-06 18:36:17 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:36:17 [!!]     x.speak_to(self.caller)
+2026-01-06 18:36:17 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 38, in speak_to
+2026-01-06 18:36:17 [!!]     make_quest("get iron","iron","get",self,talker)
+2026-01-06 18:36:17 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 86, in make_quest
+2026-01-06 18:36:17 [!!]     taker.quests.append(x)
+2026-01-06 18:36:17 [!!]     ^^^^^^^^^^^^
+2026-01-06 18:36:17 [!!] AttributeError: 'Character' object has no attribute 'quests'
+2026-01-06 18:36:17 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:36:28 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:36:32 [..] Server disconnected from the portal.
+2026-01-06 18:36:32 [..] Main loop terminated.
+2026-01-06 18:36:32 [..] Server Shut Down.
+2026-01-06 18:36:35 [..] Loaded.
+2026-01-06 18:36:33 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:36:35 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:36:35 [..] Loaded.
+2026-01-06 18:36:35 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:36:35 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:36:36 [..] Webserver starting on 4005
+2026-01-06 18:36:36 [..] Server successfully reloaded.
+2026-01-06 18:36:36 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:36:36 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:36:36 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:36:36 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:36:36 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:36:36 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:36:36 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:36:36 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:36:40 [!!] Traceback (most recent call last):
+2026-01-06 18:36:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-06 18:36:40 [!!]     ret = cmd.func()
+2026-01-06 18:36:40 [!!]           ^^^^^^^^^^
+2026-01-06 18:36:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-06 18:36:40 [!!]     x.speak_to(self.caller)
+2026-01-06 18:36:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 38, in speak_to
+2026-01-06 18:36:40 [!!]     make_quest("get iron","iron","get",self,talker)
+2026-01-06 18:36:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 86, in make_quest
+2026-01-06 18:36:40 [!!]     taker.db.quests.append(x)
+2026-01-06 18:36:40 [!!]     ^^^^^^^^^^^^^^^^^^^^^^
+2026-01-06 18:36:40 [!!] AttributeError: 'NoneType' object has no attribute 'append'
+2026-01-06 18:36:40 [EE] User input was: 'talk to blacksmith'.
+2026-01-06 18:36:47 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:40:09 [..] Server disconnected from the portal.
+2026-01-06 18:40:09 [..] Main loop terminated.
+2026-01-06 18:40:09 [..] Server Shut Down.
+2026-01-06 18:40:13 [..] Loaded.
+2026-01-06 18:40:11 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:40:13 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:40:13 [..] Loaded.
+2026-01-06 18:40:13 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:40:13 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:40:13 [..] Webserver starting on 4005
+2026-01-06 18:40:13 [..] Server successfully reloaded.
+2026-01-06 18:40:13 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:40:13 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:40:13 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:40:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:40:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:40:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:40:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:40:13 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:40:23 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:43:34 [..] Server disconnected from the portal.
+2026-01-06 18:43:34 [..] Main loop terminated.
+2026-01-06 18:43:34 [..] Server Shut Down.
+2026-01-06 18:43:39 [..] Loaded.
+2026-01-06 18:43:36 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:43:39 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:43:39 [..] Loaded.
+2026-01-06 18:43:39 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:43:39 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:43:39 [..] Webserver starting on 4005
+2026-01-06 18:43:39 [..] Server successfully reloaded.
+2026-01-06 18:43:39 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:43:39 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:43:39 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:43:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:43:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:43:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:43:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:43:39 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:43:50 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:44:04 [..] Server disconnected from the portal.
+2026-01-06 18:44:04 [..] Main loop terminated.
+2026-01-06 18:44:04 [..] Server Shut Down.
+2026-01-06 18:44:08 [..] Loaded.
+2026-01-06 18:44:05 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-06 18:44:08 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-06 18:44:08 [..] Loaded.
+2026-01-06 18:44:08 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-06 18:44:08 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-06 18:44:08 [..] Webserver starting on 4005
+2026-01-06 18:44:08 [..] Server successfully reloaded.
+2026-01-06 18:44:08 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-06 18:44:08 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-06 18:44:08 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-06 18:44:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-06 18:44:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-06 18:44:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-06 18:44:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-06 18:44:08 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-06 18:44:18 [..] Successfully sent game details to Evennia Game Index.
+2026-01-06 18:44:59 [EE] Overwriting existing registered function stopWordFilter
+2026-01-06 18:45:45 [SS] Puppet Success: (Caller: Silas(account 1), Target: Silas, IP: 127.0.0.1).
+2026-01-07 02:17:45 [!!] Unhandled error in Deferred:
+2026-01-07 02:17:46 [!!] 
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
+	    result = context.run(
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+	    return g.throw(self.value.with_traceback(self.tb))
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/game_index_client/client.py", line 56, in send_game_details
+	    status_code, response_body = yield self._form_and_send_request()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+	    current.result = callback(  # type: ignore[misc]
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
+	    raise error.DNSLookupError(
+	twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: evennia-game-index.appspot.com.
+	
+2026-01-07 18:21:46 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-07 18:21:46 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-07 18:22:00 [!!] Traceback (most recent call last):
+2026-01-07 18:22:00 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-07 18:22:00 [!!]     ret = cmd.func()
+2026-01-07 18:22:00 [!!]           ^^^^^^^^^^
+2026-01-07 18:22:00 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 71, in func
+2026-01-07 18:22:00 [!!]     if self.a in x.inventory:
+2026-01-07 18:22:00 [!!]                  ^^^^^^^^^^^
+2026-01-07 18:22:00 [!!] AttributeError: 'Blacksmith' object has no attribute 'inventory'
+2026-01-07 18:22:00 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-07 18:22:26 [!!] Traceback (most recent call last):
+2026-01-07 18:22:26 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-07 18:22:26 [!!]     ret = cmd.func()
+2026-01-07 18:22:26 [!!]           ^^^^^^^^^^
+2026-01-07 18:22:26 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 71, in func
+2026-01-07 18:22:26 [!!]     if self.a in x.inventory:
+2026-01-07 18:22:26 [!!]                  ^^^^^^^^^^^
+2026-01-07 18:22:26 [!!] AttributeError: 'NoneType' object has no attribute 'inventory'
+2026-01-07 18:22:26 [EE] User input was: 'buy sword from blacksmth'.
+2026-01-07 18:22:36 [!!] Traceback (most recent call last):
+2026-01-07 18:22:36 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-07 18:22:36 [!!]     ret = cmd.func()
+2026-01-07 18:22:36 [!!]           ^^^^^^^^^^
+2026-01-07 18:22:36 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 71, in func
+2026-01-07 18:22:36 [!!]     if self.a in x.inventory:
+2026-01-07 18:22:36 [!!]                  ^^^^^^^^^^^
+2026-01-07 18:22:36 [!!] AttributeError: 'Blacksmith' object has no attribute 'inventory'
+2026-01-07 18:22:36 [EE] User input was: 'buy sword from blacksmith'.
+2026-01-07 18:22:42 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2026-01-10 18:00:49 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-10 18:00:57 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-12 17:58:59 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-12 18:25:14 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-12 18:25:14 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-12 18:44:18 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-12 18:44:18 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-12 18:55:50 [..] Server disconnected from the portal.
+2026-01-12 18:55:50 [..] Main loop terminated.
+2026-01-12 18:55:50 [..] Server Shut Down.
+2026-01-12 18:55:54 [..] Loaded.
+2026-01-12 18:55:53 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-12 18:55:54 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-12 18:55:54 [..] Loaded.
+2026-01-12 18:55:54 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-12 18:55:54 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-12 18:55:54 [..] Webserver starting on 4005
+2026-01-12 18:55:55 [..] Server successfully reloaded.
+2026-01-12 18:55:55 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-12 18:55:55 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-12 18:55:55 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-12 18:55:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-12 18:55:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-12 18:55:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-12 18:55:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-12 18:55:55 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-12 18:56:07 [..] Successfully sent game details to Evennia Game Index.
+2026-01-12 18:56:41 [..] Server disconnected from the portal.
+2026-01-12 18:56:41 [..] Main loop terminated.
+2026-01-12 18:56:41 [..] Server Shut Down.
+2026-01-12 18:56:43 [..] Loaded.
+2026-01-12 18:56:42 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-12 18:56:43 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-12 18:56:43 [..] Loaded.
+2026-01-12 18:56:43 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-12 18:56:43 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-12 18:56:44 [..] Webserver starting on 4005
+2026-01-12 18:56:44 [..] Server successfully reloaded.
+2026-01-12 18:56:44 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-12 18:56:44 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-12 18:56:44 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-12 18:56:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-12 18:56:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-12 18:56:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-12 18:56:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-12 18:56:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-12 18:56:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-12 18:56:54 [..] Successfully sent game details to Evennia Game Index.
+2026-01-12 19:05:44 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+2026-01-15 13:56:54 [!!] Unhandled error in Deferred:
+2026-01-15 13:56:54 [!!] 
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
+	    result = context.run(
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+	    return g.throw(self.value.with_traceback(self.tb))
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/game_index_client/client.py", line 56, in send_game_details
+	    status_code, response_body = yield self._form_and_send_request()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+	    current.result = callback(  # type: ignore[misc]
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
+	    raise error.DNSLookupError(
+	twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: evennia-game-index.appspot.com.
+	
+2026-01-16 16:08:52 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-16 16:08:52 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-16 16:24:02 [EE] Overwriting existing registered function stopWordFilter
+None2026-01-16 16:27:46 [EE] Could not load typeclass 'world.npcs.BaseNpc'
+2026-01-16 16:27:46 [EE] Paths searched:
+2026-01-16 16:27:46 [EE]     world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     typeclasses.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.contrib.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.contrib.game_systems.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.contrib.base_systems.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.contrib.full_systems.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.contrib.tutorials.world.npcs.BaseNpc
+2026-01-16 16:27:46 [EE]     evennia.contrib.utils.world.npcs.BaseNpc
+2026-01-16 16:30:06 [!!] Traceback (most recent call last):
+2026-01-16 16:30:06 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-16 16:30:06 [!!]     ret = cmd.func()
+2026-01-16 16:30:06 [!!]           ^^^^^^^^^^
+2026-01-16 16:30:06 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 23, in func
+2026-01-16 16:30:06 [!!]     x.speak_to(self.caller)
+2026-01-16 16:30:06 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/world/npcs.py", line 13, in speak_to
+2026-01-16 16:30:06 [!!]     talker.msg(f"{self.key} says {random.choice(self.words)}")
+2026-01-16 16:30:06 [!!]                                                 ^^^^^^^^^^
+2026-01-16 16:30:06 [!!] AttributeError: 'BaseNPC' object has no attribute 'words'
+2026-01-16 16:30:06 [EE] User input was: 'talk to person'.
+2026-01-16 16:30:40 [..] Server disconnected from the portal.
+2026-01-16 16:30:40 [..] Main loop terminated.
+2026-01-16 16:30:40 [..] Server Shut Down.
+2026-01-16 16:30:44 [..] Loaded.
+2026-01-16 16:30:43 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2026-01-16 16:30:44 [EE] Could not find file-help module world.help_entries (skipping).
+2026-01-16 16:30:44 [..] Loaded.
+2026-01-16 16:30:44 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2026-01-16 16:30:44 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2026-01-16 16:30:44 [..] Webserver starting on 4005
+2026-01-16 16:30:44 [..] Server successfully reloaded.
+2026-01-16 16:30:44 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2026-01-16 16:30:44 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2026-01-16 16:30:44 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2026-01-16 16:30:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2026-01-16 16:30:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2026-01-16 16:30:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2026-01-16 16:30:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2026-01-16 16:30:44 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2026-01-16 16:30:55 [..] Successfully sent game details to Evennia Game Index.
+2026-01-16 16:39:44 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+2026-01-16 20:23:41 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-16 20:23:41 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-16 20:37:43 [!!] Unhandled error in Deferred:
+2026-01-16 20:37:43 [!!] 
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
+	    result = context.run(
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+	    return g.throw(self.value.with_traceback(self.tb))
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/game_index_client/client.py", line 56, in send_game_details
+	    status_code, response_body = yield self._form_and_send_request()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+	    current.result = callback(  # type: ignore[misc]
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
+	    raise error.DNSLookupError(
+	twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: evennia-game-index.appspot.com.
+	

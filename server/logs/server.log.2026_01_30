@@ -1,0 +1,177 @@
+2026-01-30 17:02:42 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-30 17:02:43 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-30 17:03:41 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining) (quit)
+2026-01-30 17:04:40 [SS] Password successfully changed for abc(account None).
+2026-01-30 17:04:40 [SS] Account Created: abc(account 6) (IP: 127.0.0.1).
+2026-01-30 17:04:40 [!!] Traceback (most recent call last):
+2026-01-30 17:04:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/accounts/accounts.py", line 1104, in create
+2026-01-30 17:04:40 [!!]     if chankey := chan_info.get("key"):
+2026-01-30 17:04:40 [!!]                   ^^^^^^^^^^^^^
+2026-01-30 17:04:40 [!!] AttributeError: 'str' object has no attribute 'get'
+2026-01-30 17:04:48 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:04:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:04:57 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:04:58 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:04:59 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:02 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:02 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:18 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:19 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:35 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:35 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:38 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:39 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:53 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:56 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:05:57 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:06:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:06:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:06:54 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:06:54 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:06:58 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:06:58 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:07 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:09 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:10 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:13 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:13 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:19 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:19 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:22 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:22 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:51 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:07:59 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:08:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:08:03 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:08:03 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-30 17:12:41 [!!] Traceback (most recent call last):
+2026-01-30 17:12:41 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-30 17:12:41 [!!]     ret = cmd.func()
+2026-01-30 17:12:41 [!!]           ^^^^^^^^^^
+2026-01-30 17:12:41 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 153, in func
+2026-01-30 17:12:41 [!!]     if chest.db.contains == "coin":
+2026-01-30 17:12:41 [!!]        ^^^^^^^^
+2026-01-30 17:12:41 [!!] AttributeError: 'NoneType' object has no attribute 'db'
+2026-01-30 17:12:41 [EE] User input was: 'open sarcophagus'.
+2026-01-30 17:12:53 [!!] Traceback (most recent call last):
+2026-01-30 17:12:53 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/commands/cmdhandler.py", line 630, in _run_command
+2026-01-30 17:12:53 [!!]     ret = cmd.func()
+2026-01-30 17:12:53 [!!]           ^^^^^^^^^^
+2026-01-30 17:12:53 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/commands/mycommands.py", line 153, in func
+2026-01-30 17:12:53 [!!]     if chest.db.contains == "coin":
+2026-01-30 17:12:53 [!!]        ^^^^^^^^
+2026-01-30 17:12:53 [!!] AttributeError: 'NoneType' object has no attribute 'db'
+2026-01-30 17:12:53 [EE] User input was: 'open sarcophagus'.
+2026-01-30 17:19:33 [EE] Overwriting existing registered function stopWordFilter
+2026-01-30 17:19:51 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:10 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:11 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:15 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:18 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:20 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:28 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:36 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:41 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:20:43 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:06 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:15 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:20 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:28 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:33 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:36 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:44 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:49 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:56 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:21:59 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:22:02 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:22:24 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:22:37 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:22:42 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:22:57 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:05 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:11 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:23 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:35 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:43 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:45 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:23:48 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:24:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:24:09 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:24:23 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:24:27 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:24:48 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:03 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:06 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:11 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:20 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:25 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:29 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:25:44 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:05 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:05 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:10 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:31 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:46 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:48 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:51 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:26:54 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:01 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:06 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:11 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:13 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:23 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:30 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:33 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:36 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:43 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:45 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:47 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:48 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:50 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:51 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:53 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:54 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:56 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:27:58 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:03 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:04 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:06 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:09 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:11 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:13 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:18 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:20 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:22 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:23 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:26 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:33 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:37 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:38 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:39 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:44 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:49 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:50 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:52 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:54 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:55 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:28:58 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:00 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:00 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:03 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:05 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:07 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:10 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:21 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:25 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:25 [..] Logged out: Silas(account 1) 127.0.0.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+2026-01-30 17:29:25 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2026-01-30 17:29:25 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2026-01-30 17:29:32 [..] Logged out: Silas(account 1) 127.0.0.1 (0 sessions(s) remaining)
+2026-01-30 17:29:43 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)

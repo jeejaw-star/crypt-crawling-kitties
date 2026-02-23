@@ -1,0 +1,20 @@
+|Portal| 2026-01-30 17:23:01 [!!] Unhandled Error
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/selectreactor.py", line 165, in _doReadOrWrite
+	    why = getattr(selectable, method)()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 250, in doRead
+	    return self._dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 255, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/basic.py", line 555, in dataReceived
+	    why = self.rawDataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 825, in rawDataReceived
+	    self.handleResponseEnd()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/proxy.py", line 82, in handleResponseEnd
+	    self.father.finish()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/server.py", line 262, in finish
+	    return _HTTPRequest.finish(self)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 1218, in finish
+	    raise RuntimeError(
+	builtins.RuntimeError: Request.finish called on a request after its connection was lost; use Request.notifyFinish to keep track of this.
+	

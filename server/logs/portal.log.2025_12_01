@@ -1,0 +1,16 @@
+|Portal| 2025-12-01 17:06:48 [..] Portal starting server ... 
+|Portal| 2025-12-01 17:06:52 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-12-01 17:06:52 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:06:52 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:07:52 [..] Portal starting server ... 
+|Portal| 2025-12-01 17:07:56 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-12-01 17:07:56 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:07:56 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:25:38 [..] Portal starting server ... 
+|Portal| 2025-12-01 17:25:41 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-12-01 17:25:41 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:25:41 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:27:22 [..] Portal starting server ... 
+|Portal| 2025-12-01 17:27:25 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-12-01 17:27:25 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-12-01 17:27:25 [EE]  string indices must be integers, not 'str' (error logged on other side)

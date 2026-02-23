@@ -1,0 +1,231 @@
+2025-12-01 16:59:50 [SS] Authentication Success: Silas(account 1) (IP: 127.0.0.1).
+2025-12-01 16:59:50 [..] Logged out: Silas(account 1) 127.0.0.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+2025-12-01 16:59:50 [..] Logged in: Silas(account 1) 127.0.0.1 (1 session(s) total)
+2025-12-01 17:06:48 [..] Server disconnected from the portal.
+2025-12-01 17:06:48 [..] Main loop terminated.
+2025-12-01 17:06:48 [..] Server Shut Down.
+2025-12-01 17:06:52 [..] Loaded.
+2025-12-01 17:06:50 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2025-12-01 17:06:52 [..] Loaded.
+2025-12-01 17:06:52 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2025-12-01 17:06:52 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-12-01 17:06:52 [..] Webserver starting on 4005
+2025-12-01 17:06:52 [..] Server successfully reloaded.
+2025-12-01 17:06:52 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2025-12-01 17:06:52 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2025-12-01 17:06:52 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2025-12-01 17:06:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2025-12-01 17:06:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2025-12-01 17:06:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2025-12-01 17:06:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2025-12-01 17:06:52 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2025-12-01 17:07:52 [..] Server disconnected from the portal.
+2025-12-01 17:07:52 [..] Main loop terminated.
+2025-12-01 17:07:52 [..] Server Shut Down.
+2025-12-01 17:07:55 [..] Loaded.
+2025-12-01 17:07:54 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2025-12-01 17:07:55 [..] Loaded.
+2025-12-01 17:07:55 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2025-12-01 17:07:55 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-12-01 17:07:56 [..] Webserver starting on 4005
+2025-12-01 17:07:56 [..] Server successfully reloaded.
+2025-12-01 17:07:56 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2025-12-01 17:07:56 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2025-12-01 17:07:56 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2025-12-01 17:07:56 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2025-12-01 17:07:56 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2025-12-01 17:07:56 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2025-12-01 17:07:56 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2025-12-01 17:07:56 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+2025-12-01 17:16:56 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.
+None2025-12-01 17:25:33 [EE] Could not load typeclass 'typeclasses.rooms.MonsterRoom'
+2025-12-01 17:25:33 [EE] Paths searched:
+2025-12-01 17:25:33 [EE]     typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     typeclasses.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.contrib.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.contrib.game_systems.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.contrib.base_systems.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.contrib.full_systems.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.contrib.tutorials.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:33 [EE]     evennia.contrib.utils.typeclasses.rooms.MonsterRoom
+2025-12-01 17:25:38 [..] Server disconnected from the portal.
+2025-12-01 17:25:38 [..] Main loop terminated.
+2025-12-01 17:25:38 [..] Server Shut Down.
+2025-12-01 17:25:41 [..] Loaded.
+2025-12-01 17:25:39 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2025-12-01 17:25:41 [..] Loaded.
+2025-12-01 17:25:41 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2025-12-01 17:25:41 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-12-01 17:25:41 [..] Webserver starting on 4005
+2025-12-01 17:25:41 [..] Server successfully reloaded.
+2025-12-01 17:25:41 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2025-12-01 17:25:41 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2025-12-01 17:25:41 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2025-12-01 17:25:41 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2025-12-01 17:25:41 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2025-12-01 17:25:41 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2025-12-01 17:25:41 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2025-12-01 17:25:41 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+None2025-12-01 17:26:03 [EE] Could not load typeclass 'typeclasses.scripts.MonsterSpawnerScript'
+2025-12-01 17:26:03 [EE] Paths searched:
+2025-12-01 17:26:03 [EE]     typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     typeclasses.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.contrib.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.contrib.game_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.contrib.base_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.contrib.full_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.contrib.tutorials.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [EE]     evennia.contrib.utils.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!] Traceback (most recent call last):
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/objects.py", line 3421, in create
+2025-12-01 17:26:03 [!!]     obj = create.create_object(**kwargs)
+2025-12-01 17:26:03 [!!]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/create.py", line 117, in create_object
+2025-12-01 17:26:03 [!!]     return ObjectDB.objects.create_object(*args, **kwargs)
+2025-12-01 17:26:03 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/manager.py", line 715, in create_object
+2025-12-01 17:26:03 [!!]     new_object.save()
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/idmapper/models.py", line 452, in save
+2025-12-01 17:26:03 [!!]     super().save(*args, **kwargs)
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2025-12-01 17:26:03 [!!]     self.save_base(
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 1023, in save_base
+2025-12-01 17:26:03 [!!]     post_save.send(
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/dispatch/dispatcher.py", line 189, in send
+2025-12-01 17:26:03 [!!]     response = receiver(signal=self, sender=sender, **named)
+2025-12-01 17:26:03 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/typeclasses/models.py", line 84, in call_at_first_save
+2025-12-01 17:26:03 [!!]     instance.at_first_save()
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/objects.py", line 1936, in at_first_save
+2025-12-01 17:26:03 [!!]     self.at_object_creation()
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/typeclasses/rooms.py", line 39, in at_object_creation
+2025-12-01 17:26:03 [!!]     create_script("typeclasses.scripts.MonsterSpawnerScript", obj=self)
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/create.py", line 160, in create_script
+2025-12-01 17:26:03 [!!]     return ScriptDB.objects.create_script(*args, **kwargs)
+2025-12-01 17:26:03 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/scripts/manager.py", line 269, in create_script
+2025-12-01 17:26:03 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2025-12-01 17:26:03 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:26:03 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 1670, in class_from_module
+2025-12-01 17:26:03 [!!]     raise ImportError(err)
+2025-12-01 17:26:03 [!!] ImportError: 
+2025-12-01 17:26:03 [!!] Could not load typeclass 'typeclasses.scripts.MonsterSpawnerScript'
+2025-12-01 17:26:03 [!!] Paths searched:
+2025-12-01 17:26:03 [!!]     typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     typeclasses.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.contrib.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.contrib.game_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.contrib.base_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.contrib.full_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.contrib.tutorials.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:26:03 [!!]     evennia.contrib.utils.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:22 [..] Server disconnected from the portal.
+2025-12-01 17:27:22 [..] Main loop terminated.
+2025-12-01 17:27:22 [..] Server Shut Down.
+2025-12-01 17:27:25 [..] Loaded.
+2025-12-01 17:27:24 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/server.py...
+2025-12-01 17:27:25 [..] Loaded.
+2025-12-01 17:27:25 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+2025-12-01 17:27:25 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+2025-12-01 17:27:25 [..] Webserver starting on 4005
+2025-12-01 17:27:25 [..] Server successfully reloaded.
+2025-12-01 17:27:25 [EE] AMP caught exception (string indices must be integers, not 'str' (error logged on other side)):
+2025-12-01 17:27:25 [EE] Code<EXCEPTION> (local): string indices must be integers, not 'str'
+2025-12-01 17:27:25 [EE] Traceback: <class 'TypeError'>: string indices must be integers, not 'str'
+2025-12-01 17:27:25 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py:216:maybeDeferred
+2025-12-01 17:27:25 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/amp_client.py:234:server_receive_adminportal2server
+2025-12-01 17:27:25 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/sessionhandler.py:415:portal_sessions_sync
+2025-12-01 17:27:25 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:659:at_post_portal_sync
+2025-12-01 17:27:25 [EE] /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/service.py:437:create_default_channels
+None2025-12-01 17:27:40 [EE] Could not load typeclass 'typeclasses.scripts.MonsterSpawnerScript' with the following traceback:
+2025-12-01 17:27:40 [EE] Traceback (most recent call last):
+2025-12-01 17:27:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 1643, in class_from_module
+2025-12-01 17:27:40 [EE]     mod = importlib.import_module(testpath, package="evennia")
+2025-12-01 17:27:40 [EE]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/importlib/__init__.py", line 126, in import_module
+2025-12-01 17:27:40 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-12-01 17:27:40 [EE]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [EE]   File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+2025-12-01 17:27:40 [EE]   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+2025-12-01 17:27:40 [EE]   File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+2025-12-01 17:27:40 [EE]   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+2025-12-01 17:27:40 [EE]   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+2025-12-01 17:27:40 [EE]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-12-01 17:27:40 [EE]   File "/Users/jaredwebb/Silas/my_code/mygame/typeclasses/scripts.py", line 104, in <module>
+2025-12-01 17:27:40 [EE]     from evennia.scripts.script import Script
+2025-12-01 17:27:40 [EE] ModuleNotFoundError: No module named 'evennia.scripts.script'
+None2025-12-01 17:27:40 [EE] Paths searched:
+2025-12-01 17:27:40 [EE]     typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     typeclasses.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.contrib.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.contrib.game_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.contrib.base_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.contrib.full_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.contrib.tutorials.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [EE]     evennia.contrib.utils.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!] Traceback (most recent call last):
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/objects.py", line 3421, in create
+2025-12-01 17:27:40 [!!]     obj = create.create_object(**kwargs)
+2025-12-01 17:27:40 [!!]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/create.py", line 117, in create_object
+2025-12-01 17:27:40 [!!]     return ObjectDB.objects.create_object(*args, **kwargs)
+2025-12-01 17:27:40 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/manager.py", line 715, in create_object
+2025-12-01 17:27:40 [!!]     new_object.save()
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/idmapper/models.py", line 452, in save
+2025-12-01 17:27:40 [!!]     super().save(*args, **kwargs)
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+2025-12-01 17:27:40 [!!]     self.save_base(
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/db/models/base.py", line 1023, in save_base
+2025-12-01 17:27:40 [!!]     post_save.send(
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/django/dispatch/dispatcher.py", line 189, in send
+2025-12-01 17:27:40 [!!]     response = receiver(signal=self, sender=sender, **named)
+2025-12-01 17:27:40 [!!]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/typeclasses/models.py", line 84, in call_at_first_save
+2025-12-01 17:27:40 [!!]     instance.at_first_save()
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/objects/objects.py", line 1936, in at_first_save
+2025-12-01 17:27:40 [!!]     self.at_object_creation()
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/typeclasses/rooms.py", line 39, in at_object_creation
+2025-12-01 17:27:40 [!!]     create_script("typeclasses.scripts.MonsterSpawnerScript", obj=self)
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/create.py", line 160, in create_script
+2025-12-01 17:27:40 [!!]     return ScriptDB.objects.create_script(*args, **kwargs)
+2025-12-01 17:27:40 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/scripts/manager.py", line 269, in create_script
+2025-12-01 17:27:40 [!!]     typeclass = class_from_module(typeclass, settings.TYPECLASS_PATHS)
+2025-12-01 17:27:40 [!!]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 1670, in class_from_module
+2025-12-01 17:27:40 [!!]     raise ImportError(err)
+2025-12-01 17:27:40 [!!] ImportError: 
+2025-12-01 17:27:40 [!!] Could not load typeclass 'typeclasses.scripts.MonsterSpawnerScript' with the following traceback:
+2025-12-01 17:27:40 [!!] Traceback (most recent call last):
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/utils/utils.py", line 1643, in class_from_module
+2025-12-01 17:27:40 [!!]     mod = importlib.import_module(testpath, package="evennia")
+2025-12-01 17:27:40 [!!]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/importlib/__init__.py", line 126, in import_module
+2025-12-01 17:27:40 [!!]     return _bootstrap._gcd_import(name[level:], package, level)
+2025-12-01 17:27:40 [!!]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-12-01 17:27:40 [!!]   File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+2025-12-01 17:27:40 [!!]   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+2025-12-01 17:27:40 [!!]   File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+2025-12-01 17:27:40 [!!]   File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+2025-12-01 17:27:40 [!!]   File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+2025-12-01 17:27:40 [!!]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2025-12-01 17:27:40 [!!]   File "/Users/jaredwebb/Silas/my_code/mygame/typeclasses/scripts.py", line 104, in <module>
+2025-12-01 17:27:40 [!!]     from evennia.scripts.script import Script
+2025-12-01 17:27:40 [!!] ModuleNotFoundError: No module named 'evennia.scripts.script'
+None2025-12-01 17:27:40 [!!] Paths searched:
+2025-12-01 17:27:40 [!!]     typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     typeclasses.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.contrib.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.contrib.game_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.contrib.base_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.contrib.full_systems.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.contrib.tutorials.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:27:40 [!!]     evennia.contrib.utils.typeclasses.scripts.MonsterSpawnerScript
+2025-12-01 17:31:29 [WW] ip_from_request: No valid IP address found in request. Using remote_addr.
+2025-12-01 17:36:25 [WW] Warning: Idmapper flush called more than once in 5.0 min interval. Check memory usage.

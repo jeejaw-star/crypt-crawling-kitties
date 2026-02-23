@@ -1,0 +1,281 @@
+|Portal| 2026-01-05 14:11:01 [..] Portal starting server ... 
+|Portal| 2026-01-05 14:11:06 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-05 14:11:06 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:11:06 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:11:35 [..] Portal starting server ... 
+|Portal| 2026-01-05 14:11:38 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-05 14:11:38 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:11:38 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:14:42 [..] Portal starting server ... 
+|Portal| 2026-01-05 14:14:46 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-05 14:14:46 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:14:46 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:15:17 [..] Portal starting server ... 
+|Portal| 2026-01-05 14:15:21 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-05 14:15:21 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:15:21 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:16:49 [..] Portal starting server ... 
+|Portal| 2026-01-05 14:16:53 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-05 14:16:53 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:16:53 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:17:58 [..] Portal starting server ... 
+|Portal| 2026-01-05 14:18:01 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-05 14:18:01 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-05 14:18:01 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:01:36 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:01:40 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:01:40 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:01:40 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:03:48 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:03:51 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:03:51 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:03:51 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:28:30 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:28:34 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:28:34 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:28:34 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:28:53 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:28:55 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:28:55 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:28:55 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:33:49 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:33:53 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:33:53 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:33:53 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:34:49 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:34:52 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:34:52 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:34:52 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:38:00 [..] Portal starting server ... 
+|Portal| 2026-01-06 15:38:03 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 15:38:03 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 15:38:03 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:06:27 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:06:30 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:06:30 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:06:30 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:07:11 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:07:13 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:07:13 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:07:13 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:08:44 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:08:48 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:08:48 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:08:48 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:09:29 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:09:32 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:09:32 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:09:32 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:10:06 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:10:08 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:10:08 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:10:08 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:10:41 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:10:43 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:10:43 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:10:43 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:11:15 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:11:17 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:11:17 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:11:17 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:12:12 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:12:15 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:12:15 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:12:15 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:15:35 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:15:39 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:15:39 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:15:39 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:16:12 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:16:15 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:16:15 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:16:15 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:16:57 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:17:00 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:17:00 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:17:00 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:18:17 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:18:20 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:18:20 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:18:20 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:19:47 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:19:51 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:19:51 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:19:51 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:26:31 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:26:34 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:26:34 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:26:34 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:27:17 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:27:20 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:27:20 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:27:20 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:29:11 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:29:14 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:29:14 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:29:14 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:30:27 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:30:30 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:30:30 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:30:30 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:31:14 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:31:16 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:31:16 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:31:16 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:33:05 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:33:09 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:33:09 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:33:09 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:36:12 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:36:17 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:36:17 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:36:17 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:36:32 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:36:36 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:36:36 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:36:36 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:40:09 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:40:13 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:40:13 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:40:13 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:43:34 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:43:39 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:43:39 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:43:39 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:44:04 [..] Portal starting server ... 
+|Portal| 2026-01-06 18:44:08 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-06 18:44:08 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-06 18:44:08 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-12 18:55:50 [..] Portal starting server ... 
+|Portal| 2026-01-12 18:55:55 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-12 18:55:55 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-12 18:55:55 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-12 18:55:55 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-12 18:55:55 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-12 18:55:55 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-12 18:55:55 [EE]     self.raiseException()
+|Portal| 2026-01-12 18:55:55 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-12 18:55:55 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-12 18:55:55 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-12 18:55:55 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-12 18:55:55 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-12 18:55:55 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-12 18:55:55 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-12 18:56:41 [..] Portal starting server ... 
+|Portal| 2026-01-12 18:56:44 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-12 18:56:44 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-12 18:56:44 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-16 16:30:40 [..] Portal starting server ... 
+|Portal| 2026-01-16 16:30:44 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:44 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-16 16:30:44 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2026-01-16 16:30:44 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:44 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:44 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:44 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:44 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:44 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:44 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:44 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:44 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:44 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:44 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:44 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:44 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:44 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:44 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:44 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:44 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:44 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:44 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE] AMP Error from b'MsgPortal2Server': Traceback (most recent call last):
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+|Portal| 2026-01-16 16:30:45 [EE]     current.result = callback(  # type: ignore[misc]
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/amp.py", line 1968, in _massageError
+|Portal| 2026-01-16 16:30:45 [EE]     error.trap(RemoteAmpError)
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 431, in trap
+|Portal| 2026-01-16 16:30:45 [EE]     self.raiseException()
+|Portal| 2026-01-16 16:30:45 [EE]   File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/python/failure.py", line 455, in raiseException
+|Portal| 2026-01-16 16:30:45 [EE]     raise self.value.with_traceback(self.tb)
+|Portal| 2026-01-16 16:30:45 [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+|Portal| 2026-01-16 16:30:45 [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")

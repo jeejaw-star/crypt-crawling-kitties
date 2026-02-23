@@ -1,0 +1,319 @@
+|Portal| 2025-11-07 16:37:11 [..] Loaded.
+|Portal| 2025-11-07 16:37:10 [!!] Removing stale pidfile /Users/jaredwebb/Silas/my_code/mygame/server/portal.pid
+|Portal| 2025-11-07 16:37:10 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/portal/portal.py...
+|Portal| 2025-11-07 16:37:11 [..] Loaded.
+|Portal| 2025-11-07 16:37:11 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+|Portal| 2025-11-07 16:37:11 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-11-07 16:37:12 [..] AMP starting on 4006
+|Portal| 2025-11-07 16:37:12 [..] Telnet starting on 4000
+|Portal| 2025-11-07 16:37:12 [..] Websocket starting on 4002
+|Portal| 2025-11-07 16:37:12 [..] Webserver-proxy starting on 4001
+|Portal| 2025-11-07 16:37:12 [..] Portal starting server ... 
+|Portal| 2025-11-07 16:37:14 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-07 16:37:14 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 16:37:14 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:01:39 [..] Portal starting server ... 
+|Portal| 2025-11-07 18:01:43 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-07 18:01:43 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:01:43 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:02:31 [..] Portal starting server ... 
+|Portal| 2025-11-07 18:02:33 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-07 18:02:33 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:02:33 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:14:49 [..] Portal starting server ... 
+|Portal| 2025-11-07 18:14:52 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-07 18:14:52 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:14:52 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:20:47 [..] Portal starting server ... 
+|Portal| 2025-11-07 18:20:50 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-07 18:20:50 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-07 18:20:50 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-10 18:25:46 [!!] Unhandled Error
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/selectreactor.py", line 165, in _doReadOrWrite
+	    why = getattr(selectable, method)()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 250, in doRead
+	    return self._dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 255, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/basic.py", line 555, in dataReceived
+	    why = self.rawDataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 825, in rawDataReceived
+	    self.handleResponseEnd()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/proxy.py", line 82, in handleResponseEnd
+	    self.father.finish()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/server.py", line 262, in finish
+	    return _HTTPRequest.finish(self)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 1218, in finish
+	    raise RuntimeError(
+	builtins.RuntimeError: Request.finish called on a request after its connection was lost; use Request.notifyFinish to keep track of this.
+	
+|Portal| 2025-11-10 18:29:14 [..] Portal starting server ... 
+|Portal| 2025-11-10 18:29:17 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-10 18:29:17 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-10 18:29:17 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-10 18:30:00 [..] Portal starting server ... 
+|Portal| 2025-11-10 18:30:01 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-10 18:30:01 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-10 18:30:01 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 16:39:14 [..] Portal starting server ... 
+|Portal| 2025-11-14 16:39:18 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 16:39:18 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 16:39:18 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:10:46 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:10:48 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:10:48 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:10:48 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:29:37 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:29:41 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:29:41 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:29:41 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:30:32 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:30:35 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:30:35 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:30:35 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:32:03 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:32:06 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:32:06 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:32:06 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:32:44 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:32:47 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:32:47 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:32:47 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:33:33 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:33:36 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:33:36 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:33:36 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:37:02 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:37:05 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:37:05 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:37:05 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:40:02 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:40:05 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:40:05 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:40:05 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:41:30 [..] (TCP Port 4001 Closed)
+|Portal| 2025-11-14 17:41:30 [..] (TCP Port 4002 Closed)
+|Portal| 2025-11-14 17:41:30 [..] (TCP Port 4000 Closed)
+|Portal| 2025-11-14 17:41:30 [..] (TCP Port 4006 Closed)
+|Portal| 2025-11-14 17:41:30 [..] Main loop terminated.
+|Portal| 2025-11-14 17:41:30 [..] Server Shut Down.
+|Portal| 2025-11-14 17:42:24 [..] Loaded.
+|Portal| 2025-11-14 17:42:22 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/portal/portal.py...
+|Portal| 2025-11-14 17:42:24 [..] Loaded.
+|Portal| 2025-11-14 17:42:24 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+|Portal| 2025-11-14 17:42:24 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-11-14 17:42:24 [..] AMP starting on 4006
+|Portal| 2025-11-14 17:42:24 [..] Telnet starting on 4000
+|Portal| 2025-11-14 17:42:24 [..] Websocket starting on 4002
+|Portal| 2025-11-14 17:42:24 [..] Webserver-proxy starting on 4001
+|Portal| 2025-11-14 17:42:24 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:42:26 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:42:26 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:42:26 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:42:31 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:42:31 [EE] Failure: builtins.Exception: 'str' object has no attribute 'check' (error logged on other side)
+|Portal| 2025-11-14 17:42:31 [EE]  'str' object has no attribute 'check' (error logged on other side)
+|Portal| 2025-11-14 17:45:36 [..] (TCP Port 4001 Closed)
+|Portal| 2025-11-14 17:45:36 [..] (TCP Port 4002 Closed)
+|Portal| 2025-11-14 17:45:36 [..] (TCP Port 4000 Closed)
+|Portal| 2025-11-14 17:45:36 [..] (TCP Port 4006 Closed)
+|Portal| 2025-11-14 17:45:36 [..] Main loop terminated.
+|Portal| 2025-11-14 17:45:36 [..] Server Shut Down.
+|Portal| 2025-11-14 17:45:41 [..] Loaded.
+|Portal| 2025-11-14 17:45:40 [..] Loading /Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/evennia/server/portal/portal.py...
+|Portal| 2025-11-14 17:45:41 [..] Loaded.
+|Portal| 2025-11-14 17:45:41 [..] twistd 24.11.0 (/Users/jaredwebb/miniconda3/envs/py311/bin/python3.11 3.11.14) starting up.
+|Portal| 2025-11-14 17:45:41 [..] reactor class: twisted.internet.selectreactor.SelectReactor.
+|Portal| 2025-11-14 17:45:42 [..] AMP starting on 4006
+|Portal| 2025-11-14 17:45:42 [..] Telnet starting on 4000
+|Portal| 2025-11-14 17:45:42 [..] Websocket starting on 4002
+|Portal| 2025-11-14 17:45:42 [..] Webserver-proxy starting on 4001
+|Portal| 2025-11-14 17:45:42 [..] Portal starting server ... 
+|Portal| 2025-11-14 17:45:44 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 17:45:44 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 17:45:44 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 18:00:26 [..] Portal starting server ... 
+|Portal| 2025-11-14 18:00:29 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 18:00:29 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 18:00:29 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 18:01:11 [..] Portal starting server ... 
+|Portal| 2025-11-14 18:01:13 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 18:01:13 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 18:01:13 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 18:01:34 [..] Portal starting server ... 
+|Portal| 2025-11-14 18:01:36 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 18:01:36 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 18:01:36 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:26:46 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:26:48 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:26:48 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:26:48 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:26:54 [!!] Unhandled Error
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/selectreactor.py", line 165, in _doReadOrWrite
+	    why = getattr(selectable, method)()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 250, in doRead
+	    return self._dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 255, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/basic.py", line 555, in dataReceived
+	    why = self.rawDataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 825, in rawDataReceived
+	    self.handleResponseEnd()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/proxy.py", line 82, in handleResponseEnd
+	    self.father.finish()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/server.py", line 262, in finish
+	    return _HTTPRequest.finish(self)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 1218, in finish
+	    raise RuntimeError(
+	builtins.RuntimeError: Request.finish called on a request after its connection was lost; use Request.notifyFinish to keep track of this.
+	
+|Portal| 2025-11-14 19:27:46 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:27:48 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:27:48 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:27:48 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:29:06 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:29:08 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:29:08 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:29:08 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:29:46 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:29:48 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:29:48 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:29:48 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:30:35 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:30:37 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:30:37 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:30:37 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:30:57 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:30:59 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:30:59 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:30:59 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:31:12 [..] Portal starting server ... 
+|Portal| 2025-11-14 19:31:14 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-14 19:31:14 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-14 19:31:14 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:13:50 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:13:53 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:13:53 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:13:53 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:16:33 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:16:36 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:16:36 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:16:36 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:18:01 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:18:04 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:18:04 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:18:04 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:18:44 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:18:47 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:18:47 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:18:47 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:19:17 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:19:19 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:19:19 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:19:19 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:22:36 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:22:39 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:22:39 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:22:39 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:22:58 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:23:01 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:23:01 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:23:01 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:25:14 [..] Portal starting server ... 
+|Portal| 2025-11-19 17:25:18 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-19 17:25:18 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-19 17:25:18 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 16:53:57 [!!] Unhandled Error
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/selectreactor.py", line 165, in _doReadOrWrite
+	    why = getattr(selectable, method)()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 250, in doRead
+	    return self._dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 255, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/basic.py", line 555, in dataReceived
+	    why = self.rawDataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 825, in rawDataReceived
+	    self.handleResponseEnd()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/proxy.py", line 82, in handleResponseEnd
+	    self.father.finish()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/server.py", line 262, in finish
+	    return _HTTPRequest.finish(self)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 1218, in finish
+	    raise RuntimeError(
+	builtins.RuntimeError: Request.finish called on a request after its connection was lost; use Request.notifyFinish to keep track of this.
+	
+|Portal| 2025-11-21 17:06:52 [..] Portal starting server ... 
+|Portal| 2025-11-21 17:06:55 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-21 17:06:55 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:06:55 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:27:41 [!!] Unhandled Error
+	Traceback (most recent call last):
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/selectreactor.py", line 165, in _doReadOrWrite
+	    why = getattr(selectable, method)()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 250, in doRead
+	    return self._dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/internet/tcp.py", line 255, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/protocols/basic.py", line 555, in dataReceived
+	    why = self.rawDataReceived(data)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 825, in rawDataReceived
+	    self.handleResponseEnd()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/proxy.py", line 82, in handleResponseEnd
+	    self.father.finish()
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/server.py", line 262, in finish
+	    return _HTTPRequest.finish(self)
+	  File "/Users/jaredwebb/miniconda3/envs/py311/lib/python3.11/site-packages/twisted/web/http.py", line 1218, in finish
+	    raise RuntimeError(
+	builtins.RuntimeError: Request.finish called on a request after its connection was lost; use Request.notifyFinish to keep track of this.
+	
+|Portal| 2025-11-21 17:48:03 [..] Portal starting server ... 
+|Portal| 2025-11-21 17:48:06 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-21 17:48:06 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:48:06 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:53:55 [..] Portal starting server ... 
+|Portal| 2025-11-21 17:53:58 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-21 17:53:58 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:53:58 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:58:38 [..] Portal starting server ... 
+|Portal| 2025-11-21 17:58:41 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-21 17:58:41 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-21 17:58:41 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-22 01:00:21 [..] Portal starting server ... 
+|Portal| 2025-11-22 01:00:26 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-22 01:00:26 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-22 01:00:26 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:56:57 [..] Portal starting server ... 
+|Portal| 2025-11-24 16:57:01 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 16:57:01 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:57:01 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:57:16 [..] Portal starting server ... 
+|Portal| 2025-11-24 16:57:19 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 16:57:19 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:57:19 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:57:44 [..] Portal starting server ... 
+|Portal| 2025-11-24 16:57:46 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 16:57:46 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:57:46 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:58:16 [..] Portal starting server ... 
+|Portal| 2025-11-24 16:58:18 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 16:58:18 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:58:18 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:59:08 [..] Portal starting server ... 
+|Portal| 2025-11-24 16:59:11 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 16:59:11 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:59:11 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:59:38 [..] Portal starting server ... 
+|Portal| 2025-11-24 16:59:40 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 16:59:40 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 16:59:40 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 17:15:34 [..] Portal starting server ... 
+|Portal| 2025-11-24 17:15:38 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 17:15:38 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 17:15:38 [EE]  string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 17:25:24 [..] Portal starting server ... 
+|Portal| 2025-11-24 17:25:27 [EE] AMP Error from AdminPortal2Server: Traceback (most recent call last):
+|Portal| 2025-11-24 17:25:27 [EE] Failure: builtins.Exception: string indices must be integers, not 'str' (error logged on other side)
+|Portal| 2025-11-24 17:25:27 [EE]  string indices must be integers, not 'str' (error logged on other side)

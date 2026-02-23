@@ -1,0 +1,8 @@
+|Portal| 2026-02-03 15:11:41 [..] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50102)
+|Portal| 2026-02-03 15:17:23 [..] Received SIGTERM, shutting down.
+|Portal| 2026-02-03 15:17:23 [..] (TCP Port 4001 Closed)
+|Portal| 2026-02-03 15:17:23 [..] (TCP Port 4002 Closed)
+|Portal| 2026-02-03 15:17:23 [..] (TCP Port 4000 Closed)
+|Portal| 2026-02-03 15:17:23 [..] (TCP Port 4006 Closed)
+|Portal| 2026-02-03 15:17:23 [..] Main loop terminated.
+|Portal| 2026-02-03 15:17:23 [..] Server Shut Down.
