@@ -4,14 +4,14 @@ Crypt crawlin' kitties is a MUM(multi-user-multiverse), powered by [Evennia](eve
 ## Example of text game
 ### Secret cave
 You are in a cave with some gold bars.
-Exits:
+#### Exits:
 North, South
-What to do? get gold
+##### What to do? get gold
 OK
-What to do? north
+##### What to do? north
 ### River cave
 You are in a cave with a beautiful river flowing through it.
-Exits:
+#### Exits:
 South, River
-What do do? River
+##### What do do? River
 ...
