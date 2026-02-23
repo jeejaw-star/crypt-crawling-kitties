@@ -6,12 +6,12 @@ Crypt crawlin' kitties is a MUM(multi-user-multiverse), powered by [Evennia](eve
 You are in a cave with some gold bars.
 Exits:
 North, South
->>> get gold
+What to do? get gold
 OK
->>> north
+What to do? north
 ### River cave
 You are in a cave with a beautiful river flowing through it.
 Exits:
 South, River
->>> River
+What do do? River
 ...
