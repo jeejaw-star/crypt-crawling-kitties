@@ -15,3 +15,9 @@ You are in a cave with a beautiful river flowing through it.
 South, River
 ##### What do do? River
 ...
+## Example of MU*
+### Inn
+You are in a bustling inn.
+Cat has arrived.
+###### hit cat
+You hit Cat.
